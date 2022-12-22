@@ -10,8 +10,9 @@ import javax.management.timer.Timer;
 public class ty {
     
     public static void main(String[] args) {
-        float x = (88/44);
-        System.out.println((1.0/44.0)*100);
+        char c = '\u0044';
+        char x = '\105';
+        System.out.println("char"+c+"char"+x);
         
     }
     

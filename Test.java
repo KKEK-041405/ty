@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -30,10 +32,12 @@ public class Test
         //System.out.println(errors+"+"+ total);
            
     }
-    public static String run(String x)
+    public static String run(String x) throws FileNotFoundException
     {
         System.out.println(x);
+        File file = new File("INPUT.TXT");
         Scanner sc = new Scanner(System.in);
+    
         return sc.nextLine();
     }
 }
