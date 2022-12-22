@@ -19,7 +19,7 @@ public class Test
         char[] g = y.toCharArray(); 
         double errors = 0;
         double total = 0;
-        for (int i = 0; i < g.length; i++) {
+        for (int i = 0; i < g.length && i < t.length; i++) {
            if(t[i] != g[i]){
             errors++;
            }
